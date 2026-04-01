@@ -94,7 +94,7 @@ function App() {
         {/* Podium Section (Asymmetric Bento) */}
         <section className="flex flex-col gap-6 mb-12 p-10">
           <h1 className='text-2xl font-extrabold text-black tracking-tighter brand-font text-center'>CÁCH THAM GIA</h1>
-          <p>Bước 1: Quay video và đăng lên nền tảng Tiktok, ...</p>
+          <p>Bước 1: Quay video và đăng lên nền tảng Tiktok ( Phải câu được lên )</p>
           <p>Bước 2: Tag @venessy.0001 vào bài đăng</p>
           <p>Bước 3: Ở phần mô tả hãy ghi: số lượng cá trắng + id nhân vật + tên nhân vật</p>
           <p>Bước 4: Chờ duyệt</p>
