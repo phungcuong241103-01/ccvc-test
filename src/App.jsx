@@ -8,11 +8,11 @@ function App() {
   const itemsPerPage = 10;
 
   const calculateStars = (player) => {
-    const fishStars = Math.floor((player.fishCaught || 0) / 10);
-    const timePenalty = Math.floor((player.time || 0) / 10);
-    const skillPenalty = (player.skill || 0) * 5;
+    const fishStars = Math.floor((player.fishCaught || 0));
+    const timePenalty = Math.floor((player.time || 0));
+    const skillPenalty = (player.skill || 0);
     
-    const totalStars = fishStars - timePenalty - skillPenalty;
+    const totalStars = (fishStars - timePenalty) / skillPenalty;
     return totalStars > 0 ? totalStars : 0;
   };
 
