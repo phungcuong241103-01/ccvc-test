@@ -106,6 +106,7 @@ function App() {
           <p>Số thời gian câu càng ít càng trừ ít sao, 10 giây = 1 sao</p>
           <p>Số lượng chiêu thức càng nhiều càng trừ nhiều sao, 1 chiêu trừ 5 sao</p>
           <p>Được phép sử dụng mọi loại bug</p>
+          <p>Lưu ý: nếu có tua thì ghi vào tiêu đề, nếu có bộ đếm thời gian ở video thì càng tốt</p>
         </section>
 
         {/* Main Leaderboard Table */}
